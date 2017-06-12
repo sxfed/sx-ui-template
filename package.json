@@ -1,14 +1,13 @@
 {
-  "name": "zk-react-demo",
+  "name": "sx-ui-template",
   "version": "1.0.0",
   "description": "A React.js project",
-  "author": "wangshubin",
+  "author": "suixingpay",
   "private": true,
   "scripts": {
     "dll": "./node_modules/.bin/webpack --config ./builder/webpack.dll.conf.js",
     "dev": "yarn run dll && cross-env NODE_ENV=development node ./builder/dev-server.js",
     "build": "cross-env NODE_ENV=production node ./builder/build.js",
-    "cp": "rm -rf ./node_modules/zk-react && cp -R /Users/wangshubin/workspace/personal/zk-react /Users/wangshubin/workspace/personal/zk-react-template-management/node_modules",
     "clear-cache": "rm -rf ./node_modules/.cache"
   },
   "dependencies": {
@@ -26,8 +25,8 @@
     "prop-types": "^15.5.8",
     "query-string": "^4.2.2",
     "react": "15.4.2",
-    "react-dom": "15.4.2",
     "react-css-modules": "^4.3.0",
+    "react-dom": "15.4.2",
     "react-redux": "^5.0.3",
     "react-router": "^3.0.2",
     "redux": "^3.6.0",
@@ -35,9 +34,9 @@
     "redux-logger": "^3.0.0",
     "redux-thunk": "^2.2.0",
     "redux-undo": "^0.6.1",
+    "sx-ui": "^1.0.1",
     "uuid": "^3.0.1",
-    "whatwg-fetch": "^1.0.0",
-    "zk-react": "^1.5.25"
+    "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
     "add-asset-html-webpack-plugin": "^2.0.1",

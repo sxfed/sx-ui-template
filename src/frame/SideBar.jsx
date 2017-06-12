@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router';
 import {Menu} from 'antd';
-import {renderNode} from 'zk-react/utils/tree-utils';
-import {FontIcon} from 'zk-react/antd';
-import {getScrollBarWidth} from 'zk-react/utils';
+import {renderNode} from 'sx-ui/utils/tree-utils';
+import {FontIcon} from 'sx-ui/antd';
+import {getScrollBarWidth} from 'sx-ui/utils';
 import connectComponent from '../redux/store/connectComponent';
 
 

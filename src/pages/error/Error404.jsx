@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Button} from 'antd';
 import {Link} from 'react-router';
-import {addClass, removeClass} from 'zk-react/utils';
+import {addClass, removeClass} from 'sx-ui/utils';
 import error404 from './404.png';
 import './style.less';
 /**

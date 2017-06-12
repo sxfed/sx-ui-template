@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {message} from 'antd';
-import {event} from 'zk-react';
+import {event} from 'sx-ui';
 import 'nprogress/nprogress.css';
 import './style.less';
 import handleErrorMessage from '../commons/handle-error-message';

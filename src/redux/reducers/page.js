@@ -1,6 +1,6 @@
 import {handleActions} from 'redux-actions';
 import {cloneDeep} from 'lodash/lang';
-import * as utils from 'zk-react/utils';
+import * as utils from 'sx-ui/utils';
 import * as types from '../actionTypes';
 import initialState from '../../page-init-state';
 

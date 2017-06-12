@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router';
-import {PageContent} from 'zk-react/antd';
-import pageRoutes from 'zk-react/route/page-routes';
+import {PageContent} from 'sx-ui/antd';
+import pageRoutes from 'sx-ui/route/page-routes';
 import {Button} from 'antd';
 import './style.less';
 

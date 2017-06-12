@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {PageContent} from 'zk-react/antd';
+import {PageContent} from 'sx-ui/antd';
 import './style-test2.less';
 
 export const PAGE_ROUTE = '/example/test2';

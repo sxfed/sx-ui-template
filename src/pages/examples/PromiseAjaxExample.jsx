@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Button, Spin} from 'antd';
-import {ajax} from 'zk-react';
-import {PageContent} from 'zk-react/antd';
+import {ajax} from 'sx-ui';
+import {PageContent} from 'sx-ui/antd';
 import './style.less';
 
 export const PAGE_ROUTE = '/example/promise-ajax';

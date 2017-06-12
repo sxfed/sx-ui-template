@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {PageContent, ImageCropperModal} from 'zk-react/antd';
-import {getImageData} from 'zk-react/utils/image-utils';
+import {PageContent, ImageCropperModal} from 'sx-ui/antd';
+import {getImageData} from 'sx-ui/utils/image-utils';
 import {Button} from 'antd';
 
 export const PAGE_ROUTE = '/example/crop-image';

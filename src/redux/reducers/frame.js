@@ -1,8 +1,8 @@
 import {handleActions} from 'redux-actions';
-import {handleAsyncReducer} from 'zk-react';
-import {convertToTree, getNodeByPropertyAndValue, getTopNodeByNode} from 'zk-react/utils/tree-utils';
-import {uniqueArray} from 'zk-react/utils';
-import {session} from 'zk-react/utils/storage';
+import {handleAsyncReducer} from 'sx-ui';
+import {convertToTree, getNodeByPropertyAndValue, getTopNodeByNode} from 'sx-ui/utils/tree-utils';
+import {uniqueArray} from 'sx-ui/utils';
+import {session} from 'sx-ui/utils/storage';
 import * as types from '../actionTypes';
 
 let initialState = {

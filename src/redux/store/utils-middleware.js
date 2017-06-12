@@ -1,4 +1,4 @@
-import * as PubSubMsg from 'zk-react/utils/pubsubmsg';
+import * as PubSubMsg from 'sx-ui/utils/pubsubmsg';
 
 export default function utilsMiddleware() {
     return next => action => {

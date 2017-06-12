@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {Form, Input, Icon, Button} from 'antd';
-import {isDev} from 'zk-react';
-import * as promiseAjax from 'zk-react/utils/promise-ajax';
-import {init as initStorage} from 'zk-react/utils/storage';
-import {convertToTree} from 'zk-react/utils/tree-utils';
+import {isDev} from 'sx-ui';
+import * as promiseAjax from 'sx-ui/utils/promise-ajax';
+import {init as initStorage} from 'sx-ui/utils/storage';
+import {convertToTree} from 'sx-ui/utils/tree-utils';
 import {setCurrentLoginUser, setMenuTreeData, isMock, getAjaxBaseUrl} from '../../commons';
 import './style.less';
 

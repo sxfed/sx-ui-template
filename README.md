@@ -1,5 +1,5 @@
-# zk-react-template-management
-zk-react 管理系统模板，UI基于antd，完整的登录、退出登录、菜单等结构
+# sx-ui-template-management
+sx-ui 管理系统模板，UI基于antd，完整的登录、退出登录、菜单等结构
 
 ## Prepare
 前端开发前期准备工作
@@ -33,24 +33,34 @@ yarn run clear-dev-cache
 
 ```
 
-## 项目结构
-```
-├── commons             // 系统公共方法，组件
-├── constants           // redux相关常量、系统其他常量
-├── frame               // 页面框架，头部+左侧等
-├── mock                // mock数据，截获ajax请求，便于前端单独调试
-│   └── mockdata        // 模拟数据 mockjs
-├── pages               // 业务页面，业务开发主要关系目录
-│   ├── error           // 一些error页面，404 403 401 等等
-│   ├── examples        // 一些例子
-│   └── home            // 首页
-├── redux               // redux 相关
-│   ├── actions         // redux action定义
-│   ├── reducers        // redux reducers定义目录
-│   └── actionTypes.js  // actions 和 reducers使用的types常量
-├── App.jsx             // 项目入口文件
-└── global.less         // 全局样式定义
+## 本地文件
+个性化配置，防止各个开发人员冲突
 
+local/local-ajax-base-url.js
+```
+/*
+ * 开发模式下ajax base url 单独提出文件，并git ignore，防止开发人员之间冲突
+ * */
+export default 'http://172.16.135.168:8080/';
+
+```
+local/local-build-config.js
+```
+/*
+ * 只开发模式有效
+ * 部分构建的本地化配置，满足不同人不同配置，而不产生冲突
+ * */
+
+const path = require('path');
+const srcPath = './src';
+
+module.exports = {
+    routesIgnore: [ // 忽略文件，不进行构建，提供部分模块打包功能
+        // '**/ActionsExample.jsx',
+    ],
+    pagePath: path.join(srcPath, 'pages/**/*.jsx'), // 使用了PAGE_ROUTE INIT_STATE 文件所在目录，与routesIgnore同样可以控制打包模块
+    // pagePath: path.join(srcPath, '**/*.jsx'),
+}
 ```
 
 ## 系统菜单激活状态

@@ -1,5 +1,5 @@
-import {isDev, isPro, isTest, isRC} from 'zk-react';
-import {session} from 'zk-react/utils/storage';
+import {isDev, isPro, isTest, isRC} from 'sx-ui';
+import {session} from 'sx-ui/utils/storage';
 import devAjaxBaseUrl from '../../local/local-ajax-base-url';
 import mockUrls from '../mock/url-config';
 

@@ -8,7 +8,7 @@ import {
     // getNodeByKeyValue,
     // getGenerationalNodesByKey,
     getCheckedKeys,
-} from 'zk-react/utils/tree-utils';
+} from 'sx-ui/utils/tree-utils';
 
 import './style.less';
 

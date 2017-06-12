@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Button} from 'antd';
-import {PageContent} from 'zk-react/antd';
+import {PageContent} from 'sx-ui/antd';
 import './style.less';
 
 export const PAGE_ROUTE = '/example/actions';

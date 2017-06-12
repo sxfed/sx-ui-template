@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {PageContent} from 'zk-react/antd';
+import {PageContent} from 'sx-ui/antd';
 
 export const PAGE_ROUTE = '/example/users/+add';
 export class LayoutComponent extends Component {

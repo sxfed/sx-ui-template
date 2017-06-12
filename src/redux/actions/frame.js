@@ -1,5 +1,5 @@
 import {createAction} from 'redux-actions';
-import {promiseAjax} from 'zk-react';
+import {promiseAjax} from 'sx-ui';
 import * as types from '../actionTypes';
 
 export const getSystemMenus = createAction(types.GET_SYSTEM_MENUS,

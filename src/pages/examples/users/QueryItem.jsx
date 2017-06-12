@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {Form, Button} from 'antd';
-import {InputClear, FormItemLayout} from 'zk-react/antd';
+import {InputClear, FormItemLayout} from 'sx-ui/antd';
 
 class QueryItem extends Component {
     static defaultProps = {

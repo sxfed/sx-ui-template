@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Operator} from 'zk-react/antd';
-import {ajax} from 'zk-react';
+import {Operator} from 'sx-ui/antd';
+import {ajax} from 'sx-ui';
 import ListPage from './ListPage';
 
 export const PAGE_ROUTE = '/example/users';

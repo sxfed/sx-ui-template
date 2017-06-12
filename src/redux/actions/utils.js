@@ -1,5 +1,5 @@
 import {createAction} from 'redux-actions';
-import * as Storage from 'zk-react/utils/storage';
+import * as Storage from 'sx-ui/utils/storage';
 import * as types from '../actionTypes';
 import pageInitState from '../../page-init-state';
 
